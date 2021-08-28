@@ -1,0 +1,11 @@
+/*<script type="text/javascript">
+setupjs=()=>{
+    var canvas=document.getElementById("canvas")
+    var ctx = canvas.getContext("2d");
+console.log("canvas success")
+console.log(ctx)
+ctx.font="50px Arial"
+ctx.fillText("HELLO WORLDDDDD",50,50)
+}
+
+</script>
