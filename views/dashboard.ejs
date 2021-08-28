@@ -3,7 +3,7 @@
 <div class="container">
   <form id="form2" method="POST" action="/dashboard"></form>
   <% if(palette.length!=null){ %>
-  <h1>Your Palette</h1>
+  <h1>Your Presentations</h1>
   <% palette.map((element)=>{ %>
   <br /><button form="form2" value="<%=element.id2%>" name="but">
     <%=element.name%>
